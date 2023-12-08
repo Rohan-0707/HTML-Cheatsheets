@@ -18,22 +18,28 @@ To add your own background images, replace the **clock1.jpg, clock2.jpg, clock3.
 
 You can customize the background images and other styles in the index.html and styles sections of the style tag.
 
-<!-- Customize the background images in the analog-clock class -->
+&#x3C;!-- Customize the background images in the analog-clock class --&#x3E;
 .analog-clock {
-    background-image: url("clock3.jpg");
+    background-image: url(&#x22;clock3.jpg&#x22;);
 }
 
-<!-- Customize the URLs in the theme function -->
+&#x3C;!-- Customize the URLs in the theme function --&#x3E;
 function theme(image) {
-    var el = document.getElementById("watch").style;
+    var el = document.getElementById(&#x22;watch&#x22;).style;
 
-    if (image == 'temp1') {
-        el.backgroundImage = "url('your-image1.jpg')";
+    if (image == &#x27;temp1&#x27;) {
+        el.backgroundImage = &#x22;url(&#x27;your-image1.jpg&#x27;)&#x22;;
     }
 
-    if (image == 'temp2') {
-        el.backgroundImage = "url('your-image2.jpg')";
+    if (image == &#x27;temp2&#x27;) {
+        el.backgroundImage = &#x22;url(&#x27;your-image2.jpg&#x27;)&#x22;;
     }
 
-    // Add similar customization for temp3 and temp4
+    if (image == &#x27;temp3&#x27;) {
+        el.backgroundImage = &#x22;url(&#x27;your-image3.jpg&#x27;)&#x22;;
+    }
+
+    if (image == &#x27;temp4&#x27;) {
+        el.backgroundImage = &#x22;url(&#x27;your-image4.jpg&#x27;)&#x22;;
+    }
 }
