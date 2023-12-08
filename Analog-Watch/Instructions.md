@@ -1,4 +1,4 @@
-**Usage**
+# Usage
 Open the **index.html** file in your preferred web browser.
 
 Explore the analog clock with the default theme.
@@ -10,11 +10,11 @@ Change the clock theme by clicking on the provided buttons:
 "Theme 3" changes the background image to clock3.jpg.
 "Theme 4" changes the background image to clock4.jpg.**
 
-**Customize the themes:**
+# Customize the themes:
 
 To add your own background images, replace the **clock1.jpg, clock2.jpg, clock3.jpg, and clock4.jpg** files in the project folder.
 
-**Customization**
+# Customization
 
 You can customize the background images and other styles in the index.html and styles sections of the style tag.
 
